@@ -32,6 +32,19 @@
 
   <!-- analytics -->
   
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34667450-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
 
 </head>
 
@@ -55,18 +68,6 @@
 		  </li>
 		  
 		  <li>
-			<a href="/categories" title="All the categories.">
-			  <i class="fa fa-folder"></i>Categories
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/tags" title="All the tags.">
-			  <i class="fa fa-tags"></i>Tags
-			</a>
-		  </li>
-		  
-		  <li>
 			<a href="/about" title="About me.">
 			  <i class="fa fa-user"></i>About
 			</a>
@@ -81,7 +82,7 @@
   <div class="container">
   	<div class="content">
     	 <div class="page-header">
-  <h1>Dimetron&#39;s blog</h1>
+  <h1>Blog about programming and life</h1>
 </div>
 
 <div class="row page">
@@ -92,12 +93,42 @@
 
 		<div class="slogan">
       <i class="fa fa-heart"></i>
-      Yet another bootstrap theme.
+      “The only man who makes no mistakes is the man who never does anything.”
 </div>    
 
 		<div class="mypage">
 		
 		<!-- title and entry -->
+		
+			
+	
+	<!-- display as entry -->
+		<h3 class="title">
+			<a href="/2013/03/14/digital-ocean-hosting/" >Digital Ocean VPS - 20GB SSD 512M / Built for developers.</a>
+			<span class="date"> Mar 14 2013 </span>
+		</h3>
+	
+
+
+			<div class="entry">
+  <div class="row">
+  
+	<div class="col-md-12">
+	  
+	
+	  <p>Few weeks ago I came across <a href="https://www.digitalocean.com" target="_blank" rel="external">Digital Ocean</a> and I can say, </p>
+<p>those guys are amazing!!!</p>
+<img src="http://dimetron.com/images/digital-ocean.png">
+
+
+	
+	</div>
+	
+  
+</div>
+	<a type="button" href="/2013/03/14/digital-ocean-hosting/#more" class="btn btn-default more">Read More</a>
+</div>
+
 		
 			
 	
@@ -479,40 +510,6 @@ Bits: <span class="function">List</span>(<span class="number">1</span>, <span cl
 </div>
 
 		
-			
-	
-	<!-- display as entry -->
-		<h3 class="title">
-			<a href="/2012/10/08/setup-new-scala-project-sbt/" >How to setup new Scala project from scratch</a>
-			<span class="date"> Oct 8 2012 </span>
-		</h3>
-	
-
-
-			<div class="entry">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <p>When you need to setup new Scala project, most common way is to use SBT tool.<br>SBT - is very powerful but Simple Build Tool for Scala and Java projects</p>
-<p>For more information check <a href="https://github.com/harrah/xsbt/wiki" target="_blank" rel="external">sbt project home</a><br>and plugins page <a href="https://github.com/harrah/xsbt/wiki/sbt-0.10-plugins-list" target="_blank" rel="external">sbt plugins list</a></p>
-<p>My favourite IDE is intellij IDEA and I will also create a project for it from SBT<br>using <a href="http://dimetron.com/blog/2012/10/02/sbt-idea-plugin/" target="_blank" rel="external">sbt IDEA plugin</a> </p>
-<figure class="highlight bash"><figcaption><span>Instructions</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment">##first create new project folder </span></div><div class="line">mkdir example_project</div><div class="line"><span class="built_in">cd</span> example_project        </div><div class="line"></div><div class="line"><span class="comment">##create default source folders </span></div><div class="line">mkdir -p src/main/scala</div><div class="line">mkdir -p src/test/scala</div><div class="line"></div><div class="line"><span class="comment">##run all junit tests</span></div><div class="line">sbt test</div><div class="line"></div><div class="line"><span class="comment">##run main class</span></div><div class="line">sbt run</div><div class="line"></div><div class="line"><span class="comment">##optionaly you could create IDEA project</span></div><div class="line">sbt gen-idea</div></pre></td></tr></table></figure>
-
-
-
-<p>This is minimal project setup ready to go. I hope it helps.</p>
-
-	
-	</div>
-	
-  
-</div>
-	<a type="button" href="/2012/10/08/setup-new-scala-project-sbt/#more" class="btn btn-default more">Read More</a>
-</div>
-
-		
 
 		</div>
 
@@ -561,48 +558,48 @@ Bits: <span class="function">List</span>(<span class="number">1</span>, <span cl
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/java/">java<span>1</span></a></li>
-		
-			<li><a href="/tags/cap/">cap<span>1</span></a></li>
-		
-			<li><a href="/tags/tdd/">tdd<span>1</span></a></li>
-		
-			<li><a href="/tags/tips/">tips<span>1</span></a></li>
-		
-			<li><a href="/tags/life/">life<span>1</span></a></li>
-		
-			<li><a href="/tags/huffman/">huffman<span>1</span></a></li>
-		
-			<li><a href="/tags/howto/">howto<span>3</span></a></li>
-		
-			<li><a href="/tags/battery/">battery<span>1</span></a></li>
+			<li><a href="/tags/languages/">languages<span>1</span></a></li>
 		
 			<li><a href="/tags/development/">development<span>2</span></a></li>
 		
+			<li><a href="/tags/learn/">learn<span>1</span></a></li>
+		
+			<li><a href="/tags/iphone/">iphone<span>0</span></a></li>
+		
+			<li><a href="/tags/innovation/">innovation<span>1</span></a></li>
+		
+			<li><a href="/tags/life/">life<span>1</span></a></li>
+		
+			<li><a href="/tags/crm/">crm<span>1</span></a></li>
+		
+			<li><a href="/tags/conferences/">conferences<span>1</span></a></li>
+		
+			<li><a href="/tags/projects/">projects<span>1</span></a></li>
+		
+			<li><a href="/tags/markdown/">markdown<span>1</span></a></li>
+		
+			<li><a href="/tags/howto/">howto<span>3</span></a></li>
+		
+			<li><a href="/tags/junit/">junit<span>1</span></a></li>
+		
+			<li><a href="/tags/optimization/">optimization<span>1</span></a></li>
+		
+			<li><a href="/tags/nosql/">nosql<span>1</span></a></li>
+		
 			<li><a href="/tags/hosting/">hosting<span>1</span></a></li>
 		
-			<li><a href="/tags/sbt/">sbt<span>2</span></a></li>
+			<li><a href="/tags/cource/">cource<span>1</span></a></li>
 		
-			<li><a href="/tags/vagrant/">vagrant<span>1</span></a></li>
+			<li><a href="/tags/agile/">agile<span>1</span></a></li>
 		
-			<li><a href="/tags/languages/">languages<span>1</span></a></li>
+			<li><a href="/tags/callback/">callback<span>1</span></a></li>
 		
-			<li><a href="/tags/soap/">soap<span>1</span></a></li>
-		
-			<li><a href="/tags/play/">play<span>2</span></a></li>
-		
-			<li><a href="/tags/cloud/">cloud<span>1</span></a></li>
-		
-			<li><a href="/tags/Stream/">Stream<span>1</span></a></li>
-		
-			<li><a href="/tags/linux/">linux<span>1</span></a></li>
+			<li><a href="/tags/vcs/">vcs<span>1</span></a></li>
 		
 			<li><a href="/tags/jeeconf/">jeeconf<span>1</span></a></li>
 		
-			<li><a href="/tags/blog/">blog<span>1</span></a></li>
 		
-		
-		   <li><a href="/tags">...<span>63</span></a></li>
+		   <li><a href="/tags">...<span>64</span></a></li>
 		 
 		</ul>
 	</div>
@@ -613,6 +610,10 @@ Bits: <span class="function">List</span>(<span class="number">1</span>, <span cl
 <div class="widget">
   <h4>Recent Posts</h4>
   <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2014/11/17/moving-to-hexo-blog-engine/" ><i class="fa fa-file-o"></i>Moving to Hexo blog engine</a>
+      </li>
     
       <li>
         <a href="/2014/01/30/weekly-links-jan-31/" ><i class="fa fa-file-o"></i>Weekly Links Jan 31</a>
@@ -630,10 +631,6 @@ Bits: <span class="function">List</span>(<span class="number">1</span>, <span cl
         <a href="/2013/06/02/jeeconf-how-i-missed-it/" ><i class="fa fa-file-o"></i>JEEConf - How I missed it :(</a>
       </li>
     
-      <li>
-        <a href="/2013/05/19/vagrant-in-the-cloud/" ><i class="fa fa-file-o"></i>Vagrant in the cloud</a>
-      </li>
-    
   </ul>
 </div>
 
@@ -643,11 +640,11 @@ Bits: <span class="function">List</span>(<span class="number">1</span>, <span cl
 	<h4>Links</h4>
 	<ul class="blogroll list-unstyled">
 	
-		<li><i class="fa fa-github"></i><a href="https://github.com/wzpan/freemind/" title="Freemind's Github repository." target="_blank"]);">Freemind</a></li>
+		<li><i class="fa fa-github"></i><a href="https://github.com/dimetron" title="Github" target="_blank"]);">Github</a></li>
 	
-		<li><i class="fa fa-github"></i><a href="http://www.github.com/wzpan" title="My Github account." target="_blank"]);">My Github</a></li>
+		<li><i class="fa fa fa-twitter"></i><a href="https://twitter.com/dimetron" title="Twitter" target="_blank"]);">Twitter</a></li>
 	
-		<li><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/pub/weizhou-pan/5b/8a0/161" title="My Linkin account." target="_blank"]);">My LinkedIn</a></li>
+		<li><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/pub/weizhou-pan/5b/8a0/161" title="LinkedIn" target="_blank"]);">LinkedIn</a></li>
 	
 	</ul>
 </div>

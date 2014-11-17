@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Blog about programming and life]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://dimetron.com/"/>
-  <updated>2014-11-17T23:31:05.578Z</updated>
+  <updated>2014-11-17T23:33:04.429Z</updated>
   <id>http://dimetron.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://dimetron.com/2014/11/17/moving-to-hexo-blog-engine/"/>
     <id>http://dimetron.com/2014/11/17/moving-to-hexo-blog-engine/</id>
     <published>2014-11-17T22:52:25.000Z</published>
-    <updated>2014-11-17T23:11:10.000Z</updated>
+    <updated>2014-11-17T23:32:59.000Z</updated>
     <content type="html"><![CDATA[<img src="http://hexo.io/css/images/logo@2x.png"><br><a href="http://hexo.io" target="_blank" rel="external">HEXO</a>: is a fast, simple &amp; powerful blog framework powered by Node.js.<br><br><strong>Installation:</strong><br>1. You need to install Node.js first.<br>2. Then use npm to install hexo command-line app<br><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo -g</div></pre></td></tr></table></figure>
 
 <p><strong>Migration:</strong> </p>
@@ -35,7 +35,9 @@
     <![CDATA[<img src="http://hexo.io/css/images/logo@2x.png"><br><a href="http://hexo.io" target="_blank" rel="external">HEXO</a>: is a fast, simple &am]]>
     </summary>
     
-      <category term="node, blog" scheme="http://dimetron.com/tags/node-blog/"/>
+      <category term="nodejs" scheme="http://dimetron.com/tags/nodejs/"/>
+    
+      <category term="blog" scheme="http://dimetron.com/tags/blog/"/>
     
   </entry>
   
